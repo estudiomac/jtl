@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Template isFullResponsive="true">
+    <Name>Lackmix</Name>
+    <Author>SALEPIX.DE</Author>
+    <URL>salepix.de</URL>
+    <Version>1.0</Version>
+    <ShopVersion>406</ShopVersion>
+    <Parent>Evo</Parent>
+    <Preview>preview.png</Preview>
+    <Description>Lacmix Child</Description>
+    <Settings>
+        <Section Name="Theme" Key="theme">
+            <Setting Description="Theme" Key="theme_default" Type="select" Value="mytheme">
+                <Option Value="mytheme">Lackmix</Option>
+            </Setting>
+        </Section>
+        <Section Name="Social Icons" Key="headericons">
+	        <Setting Description="Social-Media-Buttons im Header" Key="socialmedia_header" Type="select" Value="N">
+                <Option Value="Y">Ja</Option>
+                <Option Value="N">Nein</Option>
+            </Setting>
+            <Setting Description="Facebook-Link" Key="facebook" Type="text" Value=""/>            
+            <Setting Description="Instagram-Link" Key="instagram" Type="text" Value=""/>
+            <Setting Description="Pinterest-Link" Key="pinterest" Type="text" Value=""/>
+            <Setting Description="Twitter-Link" Key="twitter" Type="text" Value=""/>
+            <Setting Description="GooglePlus-Link" Key="googleplus" Type="text" Value=""/>
+            <Setting Description="YouTube-Link" Key="youtube" Type="text" Value=""/>
+            <Setting Description="Vimeo-Link" Key="vimeo" Type="text" Value=""/>
+	    </Section>
+    </Settings>
+    <Minify>
+        <JS Name="jtl3.js">
+            <File Path="js/mytheme.js"/>
+        </JS>
+        <CSS Name="mytheme.css">
+            <File Path="../Evo/themes/evo/bootstrap.css"/>
+            <File Path="themes/mytheme/mytheme.css"/>
+            <File Path="themes/mytheme/colors.css"/>
+        </CSS>
+    </Minify>
+</Template>
